@@ -3,9 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My App</title>
-	<link rel="stylesheet" href="bower/normalize.css/normalize.css">
+	
+	<!-- build:css styles/vendor.css -->
+	<!-- bower:css -->
+	<link rel="stylesheet" href="bower/normalize.css/normalize.css" />
+	<link rel="stylesheet" href="bower/tooltipster/css/tooltipster.css" />
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- build:css styles/main.css -->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/buttons.css">
+	<!-- endbuild -->
 </head>
 <body>
 	<h1>Моё небольшое приложение</h1>
@@ -18,7 +27,15 @@
 		</form>
 	</div>
 
+	<!-- build:js js/vendor.js -->
+	<!-- bower:js -->
 	<script src="bower/jquery/jquery.js"></script>
+	<script src="bower/tooltipster/js/jquery.tooltipster.min.js"></script>
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- build:js js/main.js -->
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+	<!-- endbuild -->
 </body>
